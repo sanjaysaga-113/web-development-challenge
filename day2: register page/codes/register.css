@@ -1,0 +1,198 @@
+body, html {
+    margin: 0%;
+    height: 100%;
+}
+
+body {
+    background-image: url("catregis.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.381);
+    border-radius: 5%;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center; /* Center-align the heading */
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.84);
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+input, .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.col-left {
+    width: 45%;
+    padding: 30px;
+}
+
+.col-right {
+    width: 45%;
+    padding: 25px;
+}
+
+.verti {
+    position: relative;
+    width: 10%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 70px;
+    border-left: 5px solid rgba(250, 255, 250, 0.578);
+}
+
+.fb, .twitter, .google {
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 20px;
+    text-decoration: none; 
+    margin-bottom: 30px;
+}
+
+.fb {
+    background-color: #3B5998;
+}
+
+.twitter {
+    background-color: #55ACEE;
+}
+
+.google {
+    background-color: #dd4b39;
+}
+
+.fb:hover, .twitter:hover, .google:hover {
+    opacity: 10;
+    text-decoration: none; /* Prevent underline on hover */
+    color: white; /* Ensure text color remains white */
+}
+
+.col-left .btn {
+    margin-top: 20px;
+}
+
+.col-right label {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    color: rgba(236, 232, 232, 0.966);
+    border-radius: 30%;
+}
+
+.col-right input[type="text"],
+.col-right input[type="email"],
+.col-right input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0 15px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    position: relative;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.signup-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.signup-btn:hover {
+    background-color: #45a049;
+    opacity: 0.9;
+}
+
+.already-user-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.already-user-btn:hover {
+    background-color: #da190b;
+    opacity: 0.9;
+}
+
+.input-group .input-group-text {
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+
+.input-group .input-group-text i {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+.input-group .input-group-text i.fa-eye-slash {
+    display: none;
+}
+
+#togglePassword,
+#toggleConfirmPassword {
+    cursor: pointer;
+    color: black;
+}
+
+i {
+    text-decoration: none;
+}
