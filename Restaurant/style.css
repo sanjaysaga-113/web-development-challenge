@@ -1,0 +1,139 @@
+.background {
+    background-image: url('https://images.pexels.com/photos/3566226/pexels-photo-3566226.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%; /* Full viewport width */
+    height: 100%; /* Full viewport height */   
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgb(26, 81, 192);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.search {
+    border-radius: 50px;
+    width: 500px;
+    height: 40px;
+    background-color: rgb(210, 202, 193);
+    text-align: start;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.res-name {
+    color: rgb(197, 197, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgb(255, 1, 44);
+}
+
+.nav-buttons button {
+    background-color: rgb(210, 202, 193);
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    font-size: large;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(201, 157, 147);
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #b8b1a7;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+button.clicked {
+    background-color: #b8b1a7;
+}
+
+a.clicked {
+    color: navy;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+video {
+    width: 1500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px; /* Ensure space between cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    flex: 1;
+}
+
+.card-container {
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
